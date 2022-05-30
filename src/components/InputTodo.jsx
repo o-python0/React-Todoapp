@@ -1,14 +1,14 @@
 import React from "react";
 
 const style = {
-  backgroundColor: "#c1ffff",
+  backgroundColor: "red",
   width: "400px",
   height: "30px",
   borderRadius: "8px",
   padding: "8px",
   margin: "8px"
 };
-
+//#c1ffff
 export const InputTodo = (props) => {
   const { todos, onChange, onClick, disabled } = props;
   return (
